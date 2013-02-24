@@ -7,6 +7,6 @@
 	<string name="menu_settings">Menu Settings</string>
 	<string name="English">English</string>
 	<string name="Spanish">Español</string>
-	<string name="assetLocation">_english</string>
+	<string name="assetLocation">_spanish</string>
 	
 </resources>

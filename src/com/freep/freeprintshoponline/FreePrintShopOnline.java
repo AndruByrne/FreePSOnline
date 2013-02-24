@@ -1,7 +1,12 @@
 package com.freep.freeprintshoponline;
 
+import java.lang.ref.WeakReference;
+
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.graphics.Paint;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.view.PagerAdapter;
@@ -15,13 +20,11 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
-import android.widget.TextView;
 
 public class FreePrintShopOnline extends Activity {
 
 	private ViewPager mPager;
-	private static int NUMBER_OF_PAGES = 4;
+	private static int NUMBER_OF_PAGES = 5;
 	private MPagerAdapter mAdapter;
 	
 	@Override
@@ -61,84 +64,152 @@ public class FreePrintShopOnline extends Activity {
 		{
 			
 			View layout = null;
-			WebView mWebView = null;
 			LayoutInflater inflater = (LayoutInflater) 
 					collection.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-			
 			switch (position){
 			case 0:
 				layout = inflater.inflate(R.layout.webview_holder, null);
-				mWebView = (WebView)layout.findViewById(R.id.my_webview);
+				//layoutRef = new WeakReference<WebView>((WebView) inflater.inflate(R.layout.webview_holder, null));
 				
-				//fuck javascript
-				mWebView.getSettings().setJavaScriptEnabled(false);
-				WebSettings webSettings0 = mWebView.getSettings();
-		        //no, I mean fuck it
+				WeakReference<WebView> mWebViewRef = new WeakReference<WebView>((WebView)layout.findViewById(R.id.my_webview));
+			
+				mWebViewRef.get().getSettings().setJavaScriptEnabled(false);
+				WebSettings webSettings0 = mWebViewRef.get().getSettings();
+				
 				webSettings0.setJavaScriptEnabled(false);
-		        //Zoom, you're cool
-				webSettings0.setBuiltInZoomControls(true);
-		        mWebView.requestFocusFromTouch();
+		        webSettings0.setBuiltInZoomControls(true);
+				mWebViewRef.get().requestFocusFromTouch();
+			    
+				mWebViewRef.get().setWebViewClient(new WebViewClient()
+				{
+		    		public boolean shouldOverrideUrlLoading(WebView view, String url){
+		    			if (url.startsWith("http:") || url.startsWith("https:")){
+		    				return false;
+		    			}
+		    			Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+		    			startActivity(intent);
+		    			return true;
+		    		}
+
+		        });
+		        mWebViewRef.get().setWebChromeClient(new WebChromeClient());
 		        
-		        mWebView.setWebViewClient(new WebViewClient());
-		        mWebView.setWebChromeClient(new WebChromeClient());
-		        
-		        mWebView.loadUrl("file:///android_asset/shelter" + getString(R.string.assetLocation) +".html");
-				((ViewPager)collection).addView((View)layout, 0);
+		        mWebViewRef.get().loadUrl("file:///android_asset/shelter" + getString(R.string.assetLocation) +".html");
+		    	((ViewPager)collection).addView((View)layout, 0);
 				break;
 
 			case 1:
-				layout = inflater.inflate(R.layout.webview_holder, null);
-				mWebView = (WebView)layout.findViewById(R.id.my_webview);
 				
-				mWebView.getSettings().setJavaScriptEnabled(false);
-				WebSettings webSettings1 = mWebView.getSettings();
+				layout = inflater.inflate(R.layout.webview_holder, null);
+				WeakReference<WebView> mWebViewRef1 = new WeakReference<WebView>((WebView)layout.findViewById(R.id.my_webview));
+				//mWebView = (WebView)layout.findViewById(R.id.my_webview);
+				
+				mWebViewRef1.get().getSettings().setJavaScriptEnabled(false);
+				WebSettings webSettings1 = mWebViewRef1.get().getSettings();
 		        
 				webSettings1.setJavaScriptEnabled(false);
 		        webSettings1.setBuiltInZoomControls(true);
-		        mWebView.requestFocusFromTouch();
+		        mWebViewRef1.get().requestFocusFromTouch();
 		        
-		        mWebView.setWebViewClient(new WebViewClient());
-		        mWebView.setWebChromeClient(new WebChromeClient());
-				
-		        mWebView.loadUrl("file:///android_asset/pantry" + getString(R.string.assetLocation) +".html");
+		        mWebViewRef1.get().setWebViewClient(new WebViewClient()
+		        {
+		    		public boolean shouldOverrideUrlLoading(WebView view, String url){
+		    			if (url.startsWith("http:") || url.startsWith("https:")){
+		    				return false;
+		    			}
+		    			Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+		    			startActivity(intent);
+		    			return true;
+		    		}
+		        });
+
+		        mWebViewRef1.get().setWebChromeClient(new WebChromeClient());
+		        mWebViewRef1.get().loadUrl("file:///android_asset/pantry" + getString(R.string.assetLocation) +".html");
 				((ViewPager)collection).addView((View)layout, 0);
+				
 				break;
 				
 			case 2:
 				layout = inflater.inflate(R.layout.webview_holder, null);
-				mWebView = (WebView)layout.findViewById(R.id.my_webview);
+				WeakReference<WebView> mWebViewRef2 = new WeakReference<WebView>((WebView)layout.findViewById(R.id.my_webview));
+				//mWebView = (WebView)layout.findViewById(R.id.my_webview);
 				
-				mWebView.getSettings().setJavaScriptEnabled(false);
-				WebSettings webSettings2 = mWebView.getSettings();
+				mWebViewRef2.get().getSettings().setJavaScriptEnabled(false);
+				WebSettings webSettings2 = mWebViewRef2.get().getSettings();
 				
 				webSettings2.setJavaScriptEnabled(false);
 				webSettings2.setBuiltInZoomControls(true);
-				mWebView.requestFocusFromTouch();
+				mWebViewRef2.get().requestFocusFromTouch();
 				
-				mWebView.setWebViewClient(new WebViewClient());
-				mWebView.setWebChromeClient(new WebChromeClient());
+				mWebViewRef2.get().setWebViewClient(new WebViewClient());
+				mWebViewRef2.get().setWebChromeClient(new WebChromeClient());
 		        //mWebView0.loadData(readTextFromResource(R.raw.shelter_english), "text/html", "utf-8");
-				mWebView.loadUrl("file:///android_asset/eats_png1.html");
+				mWebViewRef2.get().loadUrl("file:///android_asset/eats_png1.html");
 				
 				((ViewPager)collection).addView((View)layout, 0);
 				break;
 				
 			case 3:
 				layout = inflater.inflate(R.layout.webview_holder, null);
-				mWebView = (WebView)layout.findViewById(R.id.my_webview);
+				WeakReference<WebView> mWebViewRef3 = new WeakReference<WebView>((WebView)layout.findViewById(R.id.my_webview));
+				//mWebView = (WebView)layout.findViewById(R.id.my_webview);
 				
-				mWebView.getSettings().setJavaScriptEnabled(false);
-				WebSettings webSettings3 = mWebView.getSettings();
+				mWebViewRef3.get().getSettings().setJavaScriptEnabled(false);
+				WebSettings webSettings3 = mWebViewRef3.get().getSettings();
 				
 				webSettings3.setJavaScriptEnabled(false);
 				webSettings3.setBuiltInZoomControls(true);
-				mWebView.requestFocusFromTouch();
+				mWebViewRef3.get().requestFocusFromTouch();
 				
-				mWebView.setWebViewClient(new WebViewClient());
-				mWebView.setWebChromeClient(new WebChromeClient());
-				mWebView.loadUrl("file:///android_asset/eats_png2.html");
+				mWebViewRef3.get().setWebViewClient(new WebViewClient());
+				mWebViewRef3.get().setWebChromeClient(new WebChromeClient());
+				mWebViewRef3.get().loadUrl("file:///android_asset/eats_png2.html");
 				((ViewPager)collection).addView((View)layout, 0);
 				break;
+			
+			case 4:
+				layout = inflater.inflate(R.layout.webview_holder_with_header, null);
+				WeakReference<WebView> mWebViewHeaderRef4 = new WeakReference<WebView>((WebView)layout.findViewById(R.id.my_header));
+				WeakReference<WebView> mWebViewRef4 = new WeakReference<WebView>((WebView)layout.findViewById(R.id.my_webview));
+				//mWebView = (WebView)layout.findViewById(R.id.my_webview);
+				
+				mWebViewHeaderRef4.get().getSettings().setJavaScriptEnabled(false);
+				WebSettings mWebViewHeaderRef4WebSettings = mWebViewHeaderRef4.get().getSettings();
+				mWebViewHeaderRef4WebSettings.setJavaScriptEnabled(false);
+				mWebViewHeaderRef4.get().requestFocusFromTouch();
+				mWebViewHeaderRef4.get().setWebViewClient(new WebViewClient());
+		        mWebViewHeaderRef4.get().setWebChromeClient(new WebChromeClient());
+		        
+				
+				mWebViewRef4.get().getSettings().setJavaScriptEnabled(false);
+				WebSettings webSettings4 = mWebViewRef4.get().getSettings();
+		        
+				webSettings4.setJavaScriptEnabled(false);
+		        webSettings4.setBuiltInZoomControls(true);
+		        mWebViewRef4.get().requestFocusFromTouch();
+		        
+		        mWebViewRef4.get().setWebViewClient(new WebViewClient()
+		        {
+		    		public boolean shouldOverrideUrlLoading(WebView view, String url){
+		    			if (url.startsWith("http:") || url.startsWith("https:")){
+		    				return false;
+		    			}
+		    			Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+		    			startActivity(intent);
+		    			return true;
+		    		}
+	    		public void onScaleChanged(WebView view, float oldScale, float newScale)
+		    		{
+	    			}
+
+		        });
+		        mWebViewRef4.get().setWebChromeClient(new WebChromeClient());
+				
+		        mWebViewHeaderRef4.get().loadUrl("file:///android_asset/medical_header_spanish.png");
+		        mWebViewRef4.get().loadUrl("file:///android_asset/medical" + getString(R.string.assetLocation) +".html");
+				((ViewPager)collection).addView((View)layout, 0);
+				break;
+		
 			}
 			return layout;
 		}
@@ -169,7 +240,6 @@ public class FreePrintShopOnline extends Activity {
 */		
 		@Override
         public void finishUpdate(ViewGroup arg0) {}
-       
 
         @Override
         public void restoreState(Parcelable arg0, ClassLoader arg1) {}
@@ -183,7 +253,6 @@ public class FreePrintShopOnline extends Activity {
         public void startUpdate(ViewGroup arg0) {}
 
 	}
-
 	
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
