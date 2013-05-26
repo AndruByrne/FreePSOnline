@@ -168,18 +168,18 @@ public class FreePrintShopOnline extends Activity {
 				break;
 			
 			case 4:
-				layout = inflater.inflate(R.layout.webview_holder_with_header, null);
-				WeakReference<WebView> mWebViewHeaderRef4 = new WeakReference<WebView>((WebView)layout.findViewById(R.id.my_header));
+				layout = inflater.inflate(R.layout.webview_holder, null);
+//				WeakReference<WebView> mWebViewHeaderRef4 = new WeakReference<WebView>((WebView)layout.findViewById(R.id.my_header));
 				WeakReference<WebView> mWebViewRef4 = new WeakReference<WebView>((WebView)layout.findViewById(R.id.my_webview));
 				//mWebView = (WebView)layout.findViewById(R.id.my_webview);
-				
-				mWebViewHeaderRef4.get().getSettings().setJavaScriptEnabled(false);
-				WebSettings mWebViewHeaderRef4WebSettings = mWebViewHeaderRef4.get().getSettings();
-				mWebViewHeaderRef4WebSettings.setJavaScriptEnabled(false);
-				mWebViewHeaderRef4.get().requestFocusFromTouch();
-				mWebViewHeaderRef4.get().setWebViewClient(new WebViewClient());
-		        mWebViewHeaderRef4.get().setWebChromeClient(new WebChromeClient());
-		        
+//				
+//				mWebViewHeaderRef4.get().getSettings().setJavaScriptEnabled(false);
+//				WebSettings mWebViewHeaderRef4WebSettings = mWebViewHeaderRef4.get().getSettings();
+//				mWebViewHeaderRef4WebSettings.setJavaScriptEnabled(false);
+//				mWebViewHeaderRef4.get().requestFocusFromTouch();
+//				mWebViewHeaderRef4.get().setWebViewClient(new WebViewClient());
+//		        mWebViewHeaderRef4.get().setWebChromeClient(new WebChromeClient());
+//		        
 				
 				mWebViewRef4.get().getSettings().setJavaScriptEnabled(false);
 				WebSettings webSettings4 = mWebViewRef4.get().getSettings();
@@ -205,7 +205,7 @@ public class FreePrintShopOnline extends Activity {
 		        });
 		        mWebViewRef4.get().setWebChromeClient(new WebChromeClient());
 				
-		        mWebViewHeaderRef4.get().loadUrl("file:///android_asset/medical_header_spanish.png");
+		  //      mWebViewHeaderRef4.get().loadUrl("file:///android_asset/medical_header_spanish.png");
 		        mWebViewRef4.get().loadUrl("file:///android_asset/medical" + getString(R.string.assetLocation) +".html");
 				((ViewPager)collection).addView((View)layout, 0);
 				break;
