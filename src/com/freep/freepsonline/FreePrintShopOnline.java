@@ -1,41 +1,45 @@
 package com.freep.freepsonline;
 
-import java.lang.ref.WeakReference;
-
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.Paint;
-import android.net.Uri;
-import android.os.Bundle;
-import android.os.Parcelable;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
+import android.app.*;
+import android.content.*;
+import android.net.*;
+import android.os.*;
+import android.support.v4.view.*;
+import android.util.*;
+import android.view.*;
+import android.webkit.*;
+import android.widget.*;
+import java.io.*;
+import java.lang.ref.*;
 
 public class FreePrintShopOnline extends Activity {
 
 	private ViewPager mPager;
 	private static int NUMBER_OF_PAGES = 5;
 	private MPagerAdapter mAdapter;
+	private static String TAG = "FreePSOnline";
+	private static String PATH = Environment.getExternalStorageDirectory().getPath()+"/";
+ 
+//	private File mPath = new File(PATH);
+	private File sdTrial = new File(PATH+TAG, "trial.txt");
+//	private File sdTrial = new File(getContext().getFilesDir()+"inderp.html");
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		if(!sdTrial.exists()){
+			File testDir = new File(PATH+TAG);
+    	 	testDir.mkdir();
+			CopyAssetsToInternal("");
+			CopyAssetsToExternal("");
+		//	Toast mtoast = Toast.makeText(getContext(), testDir+" not present, copying files", Toast.LENGTH_SHORT);
+		//	mtoast.show();
+			
+		}
 		setContentView(R.layout.activity_main);
-		
 		mAdapter = new MPagerAdapter();
 		mPager = (ViewPager) findViewById(R.id.my_pager);
 		mPager.setAdapter(mAdapter);
-		
 		}
 	
 	private class MPagerAdapter extends PagerAdapter
@@ -66,6 +70,7 @@ public class FreePrintShopOnline extends Activity {
 			View layout = null;
 			LayoutInflater inflater = (LayoutInflater) 
 					collection.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			String targetDir = getContext().getFilesDir().toString();
 			switch (position){
 			case 0:
 				layout = inflater.inflate(R.layout.webview_holder, null);
@@ -94,7 +99,7 @@ public class FreePrintShopOnline extends Activity {
 		        });
 		        mWebViewRef.get().setWebChromeClient(new WebChromeClient());
 		        
-		        mWebViewRef.get().loadUrl("file:///android_asset/shelter" + getString(R.string.assetLocation) +".html");
+					mWebViewRef.get().loadUrl("file://"+targetDir+"/shelter" + getString(R.string.assetLocation) +".html");
 		    	((ViewPager)collection).addView((View)layout, 0);
 				break;
 
@@ -124,7 +129,7 @@ public class FreePrintShopOnline extends Activity {
 		        });
 
 		        mWebViewRef1.get().setWebChromeClient(new WebChromeClient());
-		        mWebViewRef1.get().loadUrl("file:///android_asset/pantry" + getString(R.string.assetLocation) +".html");
+					mWebViewRef1.get().loadUrl("file://"+targetDir+"/pantry" + getString(R.string.assetLocation) +".html");
 				((ViewPager)collection).addView((View)layout, 0);
 				
 				break;
@@ -144,7 +149,7 @@ public class FreePrintShopOnline extends Activity {
 				mWebViewRef2.get().setWebViewClient(new WebViewClient());
 				mWebViewRef2.get().setWebChromeClient(new WebChromeClient());
 		        //mWebView0.loadData(readTextFromResource(R.raw.shelter_english), "text/html", "utf-8");
-				mWebViewRef2.get().loadUrl("file:///android_asset/eats_png1.html");
+					mWebViewRef2.get().loadUrl("file://"+targetDir+"/eats_png1.html");
 				
 				((ViewPager)collection).addView((View)layout, 0);
 				break;
@@ -163,7 +168,7 @@ public class FreePrintShopOnline extends Activity {
 				
 				mWebViewRef3.get().setWebViewClient(new WebViewClient());
 				mWebViewRef3.get().setWebChromeClient(new WebChromeClient());
-				mWebViewRef3.get().loadUrl("file:///android_asset/eats_png2.html");
+					mWebViewRef3.get().loadUrl("file://"+targetDir+"/eats_png2.html");
 				((ViewPager)collection).addView((View)layout, 0);
 				break;
 			
@@ -206,7 +211,7 @@ public class FreePrintShopOnline extends Activity {
 		        mWebViewRef4.get().setWebChromeClient(new WebChromeClient());
 				
 		  //      mWebViewHeaderRef4.get().loadUrl("file:///android_asset/medical_header_spanish.png");
-		        mWebViewRef4.get().loadUrl("file:///android_asset/medical" + getString(R.string.assetLocation) +".html");
+		        mWebViewRef4.get().loadUrl("file://"+targetDir+"/medical" + getString(R.string.assetLocation) +".html");
 				((ViewPager)collection).addView((View)layout, 0);
 				break;
 		
@@ -261,4 +266,176 @@ public class FreePrintShopOnline extends Activity {
 		//MenuItemCompat.setShowAsAction(menu.findItem(R.menu.options), 1);
 		return true;
 	}
+	private void CopyAssetsToInternal(String sourceDir) {
+		try{
+		    String[] pages = null;
+			File     targetDir = getContext().getFilesDir();
+		    try{
+			    pages     = getContext().getAssets().list("Internal"+sourceDir);
+			} catch(Exception e){
+				Log.e(TAG, e.getMessage() +" No Internal Directory");
+			}
+			if (sourceDir != "") { 
+				sourceDir += "/"; 
+				targetDir = new File(targetDir, sourceDir); 
+				targetDir.mkdir(); 
+				Log.d(TAG, "copying assets to subdiectory "+targetDir);
+			}
+			targetDir.setReadable(true, false);
+			if(sourceDir != null){
+				
+				Log.d(TAG, "sourcedir exists");
+				for(String filename : pages) { 
+				
+					Log.d(TAG, "pages exist");
+					System.out.println("File name => "+filename); 
+					if(filename.contains(".") == false){
+						CopyAssetsToInternal("/"+filename);
+					} else {
+
+						Log.d(TAG, "COPYING");
+						File outFile;
+						InputStream in = null; 
+						OutputStream out = null; 
+						if(sourceDir == ""){
+							in = getContext().getAssets().open("Internal/"+filename); 
+						}
+						else {
+							in = getContext().getAssets().open("Internal"+sourceDir+filename);
+						}
+
+						Log.d(TAG, "copying asset: "+filename +" to internal storage, this is removed on uninstall");
+						outFile = new File(targetDir, filename);
+						// if files reside inside the "Internal" directory itself 
+						out = new FileOutputStream(outFile, false);
+						//  out = sdTrial.toString();
+						copyFile(in, out); 
+						in.close(); 
+						in = null; 
+						out.flush(); 
+						out.close(); 
+						out = null;
+					}
+				} 
+			} else {Log.e(TAG, "no sauce");}
+		} catch (IOException e) { 
+			Log.e(TAG, e.getMessage()); 
+		} 
+	}
+	private void CopyAssetsToExternal(String sourceDir) {
+		try{
+		    String[] pages = null;
+			File     targetDir = null;
+		    try{
+			    pages     = getContext().getAssets().list("External"+sourceDir);
+				targetDir = new File(PATH, TAG);
+			//	targetDir.mkdir();
+			} catch(Exception e){
+				Log.e(TAG, e.getMessage() +" No External Directory");
+			}
+			if (sourceDir != "") { 
+				sourceDir += "/"; 
+				targetDir = new File(targetDir, sourceDir); 
+				targetDir.mkdir(); 
+				Log.d(TAG, "copying assets to subdiectory "+targetDir);
+			}
+			targetDir.setReadable(true, false);
+			if(sourceDir != null){
+				
+				Log.d(TAG, "sourcedir exists");
+				for(String filename : pages) { 
+
+					Log.d(TAG, "pages exist");
+					System.out.println("File name => "+filename); 
+					if(filename.contains(".") == false){
+						CopyAssetsToExternal("/"+filename);
+					} else {
+						
+						Log.d(TAG, "COPYING");
+						File outFile;
+						InputStream in = null; 
+						OutputStream out = null; 
+						
+						if(sourceDir == ""){
+							in = getContext().getAssets().open("External/"+filename); 
+						}
+						else {
+							in = getContext().getAssets().open("External"+sourceDir+filename);
+						}
+
+						Log.d(TAG, "copying asset: "+filename +" to external storage, this is removed on uninstall");
+						outFile = new File(targetDir, filename);
+						// if files resides inside the "Files" directory itself 
+						Toast mtoast = Toast.makeText(getContext(), outFile.toString(), Toast.LENGTH_LONG);
+						mtoast.show();
+						out = new FileOutputStream(outFile, false);
+				//		  out = sdTrial;
+						copyFile(in, out); 
+						in.close(); 
+						in = null; 
+						out.flush(); 
+						out.close(); 
+						out = null;
+						
+					}
+				} 
+			} else {Log.e(TAG, "no sauce");}
+		} catch (IOException e) { 
+			Log.e(TAG, e.getMessage()); 
+		} 
+	}	
+//	private void CopyAssetsToExternal() { 
+//	    AssetManager assetManager = getAssets(); 
+//		String[] files = null; 
+//
+//	    try { 
+//		    files = assetManager.list("External"); 
+//		} catch (IOException e) { 
+//		    Log.e("tag", e.getMessage()); 
+//		} 
+//		for(String filename : files) { 
+//		    System.out.println("File name => "+filename); 
+//		    InputStream in = null; 
+//			OutputStream out = null; 
+//			File outFile;
+//
+//			try { 
+//			    in = assetManager.open("External/"+filename); 
+//				outFile = new File(PATH+"/"+TAG+"/", filename);
+//				// if files reside in the "External" directory itself 
+//				out = new FileOutputStream(outFile, false); 
+//				//  out = sdTrial.toString();
+//			    copyFile(in, out); 
+//				in.close(); 
+//				in = null; 
+//				out.flush(); 
+//				out.close(); 
+//				out = null; 
+//				Log.d(TAG, "copying asset: "+filename);
+//
+//			} catch(Exception e) { 
+//			    Log.e(TAG, e.getMessage()); 
+//			} 
+//		} 
+//	} 
+
+	private void copyFile(InputStream in, OutputStream out) 
+	throws IOException { 
+		byte[] buffer = new byte[1024]; 
+		int read; 
+		while((read = in.read(buffer)) != -1){ 
+			out.write(buffer, 0, read); 
+		} 
+	}
+
+	public static String getApplicationName(Context context) { 
+	    int stringId = context.getApplicationInfo().labelRes; 
+		return context.getString(stringId); 
+	}
+	@Override
+	@Deprecated
+	public Context getContext() {
+		return this;
+	}
+	
 }
