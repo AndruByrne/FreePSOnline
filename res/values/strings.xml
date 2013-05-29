@@ -8,5 +8,10 @@
 	<string name="English">English</string>
 	<string name="Spanish">Español</string>
 	<string name="assetLocation">_english</string>
-	
+	<string name="page4">Internal/medical_english.html</string>
+	<string name="page3">Internal/eats_png2.html</string>
+	<string name="page2">Internal/eats_png1.html</string>
+	<string name="page1">Internal/pantry_english.html</string>
+	<string name="page0">Internal/shelter_english.html</string>
+
 </resources>

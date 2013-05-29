@@ -19,23 +19,26 @@ public class FreePrintShopOnline extends Activity {
 	private MPagerAdapter mAdapter;
 	private static String TAG = "FreePSOnline";
 	private static String PATH = Environment.getExternalStorageDirectory().getPath()+"/";
- 
+    private static String URL= "file:///android_asset/Internal/";
 //	private File mPath = new File(PATH);
-	private File sdTrial = new File(PATH+TAG, "trial.txt");
-//	private File sdTrial = new File(getContext().getFilesDir()+"inderp.html");
+//	private File intTrial;
+ //   private File sdTrial;
 	
-	@Override
+ @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		if(!sdTrial.exists()){
-			File testDir = new File(PATH+TAG);
-    	 	testDir.mkdir();
-			CopyAssetsToInternal("");
-			CopyAssetsToExternal("");
-		//	Toast mtoast = Toast.makeText(getContext(), testDir+" not present, copying files", Toast.LENGTH_SHORT);
-		//	mtoast.show();
+	    //sdTrial  = new File(PATH+TAG, "trial.txt");
+//	    intTrial = new File(this.getContext().getFilesDir().toString(), "inderp.html");
+//		if(intTrial.exists()){
+			//commenting out these lines b/c FilesDir exists
+//			File testDir = new File(PATH+TAG);
+//   	 	testDir.mkdir();
+//			CopyAssetsToInternal("");
+//			CopyAssetsToExternal("");
+//			Toast mtoast = Toast.makeText(getContext(), "Assets not present, copying files", Toast.LENGTH_SHORT);
+//			mtoast.show();
 			
-		}
+//		}
 		setContentView(R.layout.activity_main);
 		mAdapter = new MPagerAdapter();
 		mPager = (ViewPager) findViewById(R.id.my_pager);
@@ -98,8 +101,13 @@ public class FreePrintShopOnline extends Activity {
 
 		        });
 		        mWebViewRef.get().setWebChromeClient(new WebChromeClient());
-		        
-					mWebViewRef.get().loadUrl("file://"+targetDir+"/shelter" + getString(R.string.assetLocation) +".html");
+					String htmlPage0 = getHtmlFromAsset(getString(R.string.page0));
+					if(htmlPage0 != null){
+						mWebViewRef.get().loadDataWithBaseURL(URL, htmlPage0, "text/html", "UTF-8", URL);
+					} else {Log.e(TAG, "no html string");}
+					htmlPage0 = null;	
+					
+			//		mWebViewRef.get().loadUrl("file://"+targetDir+"/shelter" + getString(R.string.assetLocation) +".html");
 		    	((ViewPager)collection).addView((View)layout, 0);
 				break;
 
@@ -129,8 +137,12 @@ public class FreePrintShopOnline extends Activity {
 		        });
 
 		        mWebViewRef1.get().setWebChromeClient(new WebChromeClient());
-					mWebViewRef1.get().loadUrl("file://"+targetDir+"/pantry" + getString(R.string.assetLocation) +".html");
-				((ViewPager)collection).addView((View)layout, 0);
+					String htmlPage1 = getHtmlFromAsset(getString(R.string.page1));
+					if(htmlPage1 != null){
+						mWebViewRef1.get().loadDataWithBaseURL(URL, htmlPage1, "text/html", "UTF-8", URL);
+					} else {Log.e(TAG, "no html string");}
+					htmlPage1 = null;		
+					((ViewPager)collection).addView((View)layout, 0);
 				
 				break;
 				
@@ -149,8 +161,11 @@ public class FreePrintShopOnline extends Activity {
 				mWebViewRef2.get().setWebViewClient(new WebViewClient());
 				mWebViewRef2.get().setWebChromeClient(new WebChromeClient());
 		        //mWebView0.loadData(readTextFromResource(R.raw.shelter_english), "text/html", "utf-8");
-					mWebViewRef2.get().loadUrl("file://"+targetDir+"/eats_png1.html");
-				
+					String htmlPage2 = getHtmlFromAsset(getString(R.string.page2));
+					if(htmlPage2 != null){
+						mWebViewRef2.get().loadDataWithBaseURL(URL, htmlPage2, "text/html", "UTF-8", URL);
+					} else {Log.e(TAG, "no html string");}
+					htmlPage2 = null;				
 				((ViewPager)collection).addView((View)layout, 0);
 				break;
 				
@@ -168,7 +183,12 @@ public class FreePrintShopOnline extends Activity {
 				
 				mWebViewRef3.get().setWebViewClient(new WebViewClient());
 				mWebViewRef3.get().setWebChromeClient(new WebChromeClient());
-					mWebViewRef3.get().loadUrl("file://"+targetDir+"/eats_png2.html");
+				String htmlPage3 = getHtmlFromAsset(getString(R.string.page3));
+				if(htmlPage3 != null){
+					mWebViewRef3.get().loadDataWithBaseURL(URL, htmlPage3, "text/html", "UTF-8", URL);
+				} else {Log.e(TAG, "no html string");}
+				htmlPage3 = null;	
+				//	mWebViewRef3.get().loadUrl("file://"+targetDir+"/eats_png2.html");
 				((ViewPager)collection).addView((View)layout, 0);
 				break;
 			
@@ -209,40 +229,47 @@ public class FreePrintShopOnline extends Activity {
 
 		        });
 		        mWebViewRef4.get().setWebChromeClient(new WebChromeClient());
-				
+				String htmlPage4 = getHtmlFromAsset(getString(R.string.page4));
+				if(htmlPage4 != null){
+					mWebViewRef4.get().loadDataWithBaseURL(URL, htmlPage4, "text/html", "UTF-8", URL);
+				} else {Log.e(TAG, "no html string");}
 		  //      mWebViewHeaderRef4.get().loadUrl("file:///android_asset/medical_header_spanish.png");
-		        mWebViewRef4.get().loadUrl("file://"+targetDir+"/medical" + getString(R.string.assetLocation) +".html");
+		//		  mWebViewRef4.get().loadUrl("file://"+getContext().getFilesDir().getAbsolutePath()+"/medical" + getString(R.string.assetLocation) +".html");
+				htmlPage4 = null;
+
 				((ViewPager)collection).addView((View)layout, 0);
 				break;
 		
 			}
 			return layout;
 		}
-		
+
 		//taken out b/c it is too slow between gestures, left in b/c it is nifty
-		/*private String readTextFromResource(int resourceID)
-		{
-			InputStream raw = getResources().openRawResource(resourceID);
-			ByteArrayOutputStream stream  = new ByteArrayOutputStream();
-			int i;
-			try
-			{
-				i=raw.read();
-				while (i != -1)
-				{
-					stream.write(i);
-					i = raw.read();
-					
-				}
-				raw.close();
-			}
-			catch(IOException e)
-			{
-				e.printStackTrace();
-			}
-			return stream.toString();
-		}
-*/		
+//		private String readTextFromResource(int resourceID)
+//		{
+//			InputStream raw = getResources().openRawResource(resourceID);
+//			ByteArrayOutputStream stream  = new ByteArrayOutputStream();
+//			int i;
+//			try
+//			{
+//				i=raw.read();
+//				while (i != -1)
+//				{
+//					stream.write(i);
+//					i = raw.read();
+//					
+//				}
+//				raw.close();
+//			}
+//			catch(IOException e)
+//			{
+//				e.printStackTrace();
+//			}
+//			return stream.toString();
+//		}
+//		
+		
+		
 		@Override
         public void finishUpdate(ViewGroup arg0) {}
 
@@ -366,8 +393,8 @@ public class FreePrintShopOnline extends Activity {
 						Log.d(TAG, "copying asset: "+filename +" to external storage, this is removed on uninstall");
 						outFile = new File(targetDir, filename);
 						// if files resides inside the "Files" directory itself 
-						Toast mtoast = Toast.makeText(getContext(), outFile.toString(), Toast.LENGTH_LONG);
-						mtoast.show();
+				//		Toast mtoast = Toast.makeText(getContext(), outFile.toString(), Toast.LENGTH_LONG);
+				//		mtoast.show();
 						out = new FileOutputStream(outFile, false);
 				//		  out = sdTrial;
 						copyFile(in, out); 
@@ -384,41 +411,28 @@ public class FreePrintShopOnline extends Activity {
 			Log.e(TAG, e.getMessage()); 
 		} 
 	}	
-//	private void CopyAssetsToExternal() { 
-//	    AssetManager assetManager = getAssets(); 
-//		String[] files = null; 
-//
-//	    try { 
-//		    files = assetManager.list("External"); 
-//		} catch (IOException e) { 
-//		    Log.e("tag", e.getMessage()); 
-//		} 
-//		for(String filename : files) { 
-//		    System.out.println("File name => "+filename); 
-//		    InputStream in = null; 
-//			OutputStream out = null; 
-//			File outFile;
-//
-//			try { 
-//			    in = assetManager.open("External/"+filename); 
-//				outFile = new File(PATH+"/"+TAG+"/", filename);
-//				// if files reside in the "External" directory itself 
-//				out = new FileOutputStream(outFile, false); 
-//				//  out = sdTrial.toString();
-//			    copyFile(in, out); 
-//				in.close(); 
-//				in = null; 
-//				out.flush(); 
-//				out.close(); 
-//				out = null; 
-//				Log.d(TAG, "copying asset: "+filename);
-//
-//			} catch(Exception e) { 
-//			    Log.e(TAG, e.getMessage()); 
-//			} 
-//		} 
-//	} 
 
+	private String getHtmlFromAsset(String htmlAsset) {
+	InputStream is;
+	StringBuilder builder = new StringBuilder();
+        String htmlString = null;
+        try {
+		is = getAssets().open(htmlAsset);
+		if (is != null) {
+			BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+			String line;
+                while ((line = reader.readLine()) != null) {
+				    builder.append(line);
+                }
+                htmlString = builder.toString();
+			}
+		} catch (IOException e) {e.printStackTrace();}
+
+        return htmlString;
+	}
+	
+	
+	
 	private void copyFile(InputStream in, OutputStream out) 
 	throws IOException { 
 		byte[] buffer = new byte[1024]; 
