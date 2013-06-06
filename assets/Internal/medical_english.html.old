@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<meta name="viewport" content="width=device-width"/>
 	<head>
 		<meta charset="utf-8" />
 		<title>medical_english</title>
-		<link href="css/medical_english.css" rel="stylesheet" type="text/css" />
-		<link href="css/additional_medical.css" rel="stylesheet" type="text/css" />
-		<link href="css/static_header.css" rel="stylesheet" type="text/css" />
+		<link href="medical_english-web-resources/css/medical_english.css" rel="stylesheet" type="text/css" />
+		<link href="medical_english-web-resources/css/additional_medical.css" rel="stylesheet" type="text/css" />
+		<link href="medical_english-web-resources/css/static_header.css" rel="stylesheet" type="text/css" />
 	</head>
-	<body id="medical_english" class="med_eng" xml:lang="en-US">
-		<table class "tableone" summary="I can also write here">
+	<body id="medical_english" xml:lang="en-US">
+			<table class "tableone" summary="I can also write here">
 				<thead>
 					<tr>
 					<th class ="th1" scope="col"><a href="#"></a></th>
@@ -33,15 +32,15 @@
 <div>
 			<p class="Chart-Title">San Francisco Free Medical Chart</p>
 			<p class="Chart-Title"><span>January-March 2013</span><span class="char-style-override-1"></span></p>
-			<p class="Chart-Title para-style-override-1"></p>
+			<p class="No-Paragraph-Style para-style-override-1"></p>
 		</div>
 		<div>
 			<p class="Legend"><span class="Legend-Chart-Symbols">A</span>dults; <span class="Legend-Chart-Symbols">T</span>eens; <span class="Legend-Chart-Symbols">S</span>eniors; <span class="Legend-Chart-Symbols">C</span>hildren; <span class="Legend-Chart-Symbols">W</span>omen; <span class="Legend-Chart-Symbols">M</span>en; <span class="char-style-override-2">a</span>veryone</p>
 		</div>
 		</th>
 		</thead>
-		</tr>
 		<tbody>
+		</tr>
 		<tr><td colspan="17">
 		<div class="innerb">
 			<table id="table-1" class="No-Table-Style table-style-override-1">
@@ -67,52 +66,52 @@
 				<tbody>
 					<tr class="Row-Column-3">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="clinic-type">
 							<p class="Type-of-Clinic-p-1"><span class="Name" xml:lang="en-US"> Central Health Centers</span></p>
@@ -123,16 +122,16 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">t</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -141,16 +140,16 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">t</span></p>
@@ -212,7 +211,7 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">t</span></p>
@@ -232,7 +231,7 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
@@ -262,13 +261,13 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
@@ -279,52 +278,52 @@
 					</tr>
 					<tr class="Row-Column-3">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="clinic-type">
 							<p class="Type-of-Clinic-p-1"><span class="Name" xml:lang="en-US"> Neighborhood Clinics</span></p>
@@ -350,13 +349,13 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -385,49 +384,49 @@
 					</tr>
 					<tr class="Row-Column-6">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">n</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">n</span></p>
@@ -438,7 +437,7 @@
 					</tr>
 					<tr class="Row-Column-7">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -459,13 +458,13 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -509,7 +508,7 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -518,7 +517,7 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -547,16 +546,16 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
@@ -565,28 +564,28 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
@@ -624,7 +623,7 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -650,52 +649,52 @@
 					</tr>
 					<tr class="Row-Column-3">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="clinic-type">
 							<p class="Type-of-Clinic-p-1"><span class="Name" xml:lang="en-US"> Outreach Clinics</span></p>
@@ -703,49 +702,49 @@
 					</tr>
 					<tr class="Row-Column-6">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">w</span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">w</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">w</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">w</span></p>
@@ -759,49 +758,49 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="main-cells-p--1">
 							<p class="Normal-p-1"><span class="Name" xml:lang="en-US">Martin de Porres. </span><span class="default-small-caps">225 Potrero Ave </span>(bet. 15th &amp; 16th Sts). 552-0240. Free. Th 12-2pm nurse practitioner; 12:30-2pm, health education, referrals, over-the-counter medications. English &amp; Spanish. &#9;<span class="ADA">6</span></p>
@@ -809,7 +808,7 @@
 					</tr>
 					<tr class="Row-Column-6">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -827,13 +826,13 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -851,7 +850,7 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -865,49 +864,49 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="main-cells-p--1">
 							<p class="Normal-p-1"><span class="Name" xml:lang="en-US">San Francisco Day Labor Program. </span><span class="default-small-caps">3358 Cesar Chavez </span>(bet. Mission &amp; S. Van Ness). 252-5375. Free. <span class="drop-in">Drop-in</span>: M 10-11am, HIV testing; Tu 9-11am, medical care. First 20 people are seen. Preference given to day laborers. Job referrals M-F 7am-1pm, Sa 7am-noon. English classes available. English &amp; Spanish. &#9;<span class="ADA">6</span></p>
@@ -915,52 +914,52 @@
 					</tr>
 					<tr class="Row-Column-3">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in char-style-override-3"></span></p>
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="clinic-type">
 							<p class="Type-of-Clinic-p-1"><span class="Name" xml:lang="en-US"> Other Clinics</span></p>
@@ -974,28 +973,28 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
@@ -1004,13 +1003,13 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">u</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">h</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
@@ -1021,7 +1020,7 @@
 					</tr>
 					<tr class="Row-Column-9">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -1042,10 +1041,10 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -1063,7 +1062,7 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -1074,8 +1073,8 @@
 					</tr>
 				</tbody>
 			</table>
-			<p class="Column-Head para-style-override-2"><span class="drop-in char-style-override-4"></span></p>
-			<p class="Column-Head para-style-override-2"><span class="drop-in char-style-override-4"></span></p>
+			<p class="caption para-style-override-2"><span class="drop-in char-style-override-4"></span></p>
+			<p class="Basic-Paragraph"><span class="ADA char-style-override-5"></span></p>
 		<div>
 			<table id="table-2" class="No-Table-Style table-style-override-1">
 				<colgroup>
@@ -1098,51 +1097,104 @@
 					<col class="Row-Column-2" />
 				</colgroup>
 				<tbody>
+					<tr class="Row-Column-3">
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in char-style-override-3"></span></p>
+						</td>
+						<td class="clinic-type">
+							<p class="Type-of-Clinic-p--2"><span class="Name" xml:lang="en-US"> Other Clinics</span></p>
+						</td>
+					</tr>
 					<tr class="Row-Column-7">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -1174,13 +1226,13 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">l</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">l</span></p>
@@ -1195,7 +1247,7 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">l</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">l</span></p>
@@ -1227,10 +1279,10 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">l</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">l</span></p>
@@ -1248,7 +1300,7 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">l</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">l</span></p>
@@ -1259,7 +1311,7 @@
 					</tr>
 					<tr class="Row-Column-9">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">q</span></p>
@@ -1280,10 +1332,10 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">q</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">q</span></p>
@@ -1301,7 +1353,7 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">q</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">q</span></p>
@@ -1312,10 +1364,10 @@
 					</tr>
 					<tr class="Row-Column-9">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">t</span></p>
@@ -1330,19 +1382,19 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">t</span></p>
@@ -1351,13 +1403,13 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="main-cells-p--2">
 							<p class="Normal-p-2"><span class="Name" xml:lang="en-US">New Generation Health Center. </span><span class="default-small-caps">625 Potrero Ave </span>(bet. 18th &amp; 19th Sts). 502-8336. $0-full bill. &lt;newgen.ucsf.edu&gt;. Call MWF 9am-5pm, TuTh 10am-6pm for an appt. <span class="drop-in">Drop-in</span> for emergency contraceptives: MWF 9am-5pm, TuTh 10am-6pm. English &amp; Spanish. &#9;<span class="ADA">6</span></p>
@@ -1365,7 +1417,7 @@
 					</tr>
 					<tr class="Row-Column-9">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -1374,25 +1426,25 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">t</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
@@ -1404,10 +1456,10 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">b</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -1418,7 +1470,7 @@
 					</tr>
 					<tr class="Row-Column-11">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">c</span></p>
@@ -1427,25 +1479,25 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">c</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">c</span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
-						</td>
-						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">c</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">c</span></p>
+						</td>
+						<td class="cell-style-override-1">
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">k</span></p>
@@ -1454,13 +1506,13 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">t</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">c</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">c</span></p>
@@ -1471,10 +1523,10 @@
 					</tr>
 					<tr class="Row-Column-12">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">t</span></p>
@@ -1489,13 +1541,13 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">b</span></p>
@@ -1510,10 +1562,10 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span></p>
@@ -1524,7 +1576,7 @@
 					</tr>
 					<tr class="Row-Column-10">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
@@ -1542,13 +1594,13 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">b</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
@@ -1560,13 +1612,13 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">f</span></p>
@@ -1577,10 +1629,10 @@
 					</tr>
 					<tr class="Row-Column-9">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">t</span></p>
@@ -1595,19 +1647,19 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">q</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">q</span></p>
@@ -1619,10 +1671,10 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">q</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="main-cells-p--2">
 							<p class="Normal-p-2"><span class="Name" xml:lang="en-US">Women’s Community Clinic. </span><span class="default-small-caps">1833 Fillmore St, 3rd Floor </span>(bet. Bush &amp; Sutter). 379-7800. $0-full bill. Call for appt MTh 1-9pm, Tu 9am-9pm, WF 9am-5pm, Sa 9am-1pm. Female-identified or female-bodied welcome. Acupuncture available. English &amp; Spanish. &#9;<span class="ADA">6</span></p>
@@ -1630,52 +1682,52 @@
 					</tr>
 					<tr class="Row-Column-3">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="clinic-type">
 							<p class="Type-of-Clinic-p--2"><span class="Name" xml:lang="en-US"> Testing Sites</span></p>
@@ -1683,10 +1735,10 @@
 					</tr>
 					<tr class="Row-Column-13">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">t</span></p>
@@ -1701,34 +1753,34 @@
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">a</span><span class="drop-in char-style-override-3"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">t</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="main-cells-p--2">
 							<p class="Normal-p-2"><span class="Name" xml:lang="en-US">City Clinic. </span><span class="default-small-caps">356-7th St </span>(bet. Folsom &amp; Harrison). 487-5500. $10 fee, no one turned away for lack of funds. &lt;www.sfcityclinic.org&gt;. <span class="drop-in">Drop-in</span> (come early!): MWF 8am-4pm, Tu 3-6pm, Th 3-4pm; people with STD symptoms TuTh 1-3pm; Family Planning MWF 8am-3pm, Tu 3-6pm or call 487-5552 or email sfccwomensclinic@sfdph.org for Th morning family planning appt. HIV early care clinic by appt only. HIV Post Exposure Prophylaxis &amp; emergency contraception available after clinician assessment. HIV testing only if clinician assesses high risk. Cantonese, English, Mandarin, Russian, Spanish, &amp; Tagalog. &#9;<span class="ADA">6</span></p>
@@ -1736,52 +1788,52 @@
 					</tr>
 					<tr class="Row-Column-10">
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
 							<p class="English-Chart-Symbol"><span class="drop-in char-style-override-4">h</span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="cell-style-override-1">
-							<p class="Column-Head"><span class="drop-in"></span></p>
+							<p class="caption"><span class="drop-in"></span></p>
 						</td>
 						<td class="main-cells-p--2">
 							<p class="Normal-p-2"><span class="Name" xml:lang="en-US">UCSF Alliance Health Project. </span><span class="default-small-caps">1930 Market </span>(by Duboce). 502-8378. Donation requested, not required. &lt;www.ucsf-ahp.org&gt;. For rapid HIV testing call Tu-F 11am-4:30pm for appt or <span class="drop-in">drop-in</span> Tu 5-7pm WTh 12-7pm, F 12-5pm, Sa 9am-12pm, Su 12:30-3:30pm. Confidential. HIV &amp; risk assessment counseling available. English &amp; Spanish. Other languages by appt.&#9;<span class="ADA">6</span></p>
@@ -1789,28 +1841,30 @@
 					</tr>
 				</tbody>
 			</table>
-			<p class="Column-Head para-style-override-2"><span class="drop-in char-style-override-4"></span></p>
-			<p class="Column-Head para-style-override-2"><span class="drop-in char-style-override-4"></span></p>
+			<p class="caption para-style-override-2"><span class="drop-in char-style-override-4"></span></p>
+			<p class="Basic-Paragraph"><span class="ADA char-style-override-5"></span></p>
 		</div>
 		<div>
-			<p class="para-style-override-3">† Primary Care clinics provide full medical services including screening &amp; referral.Urgent Care clinics provide limited medical services including screening &amp; referral.</p>
-			<p class="para-style-override-3">‡ Clinics that provide only mental health services, health education &amp; substance abuse programs are not included on this chart. </p>
-		</div>
-		<div>
-			<p class="Odds-and-Ends-heading">Odds &amp; Ends</p>
-		</div>
-		<div>
-			<p class="oddsAndEnds"><span class="Name" xml:lang="en-US"> Acupuncture: </span>1. American College of Traditional Chinese Medicine. <br />555 <span class="address" xml:lang="en-US">DeHaro, Rm G</span>, 282-9603. Free <span class="drop-in">drop-in</span> ear clinic, MTu 1:30-4:15pm, WTh 9-11:45am. <span class="ADA">6</span><br />2. Haight Ashbury Free Clinics - Walden House. 1735 <span class="address" xml:lang="en-US">Mission St.</span> (at 13th Street). 746-1940. Call for an app.  M-F 9am-5pm. <span class="ADA">6</span><br />3. Glide Health Services. 330<span class="address" xml:lang="en-US"> Ellis St, 6th Floor </span>(bet. Taylor &amp; Jones). 674-6140. <span class="drop-in">Drop-in</span><span> Tu 1-4pm, Th 1-3pm.</span><span class="ADA"></span></p>
-			<p class="oddsAndEnds"><span class="Name" xml:lang="en-US">Surgery: Operation Access. </span><span class="address" xml:lang="en-US">115 Sansome, Suite 1205</span> (at Bush). 733-0052. Free. Call M-F 9am-5pm for information on how to get a referral for free outpatient surgery. English, Portuguese, &amp; Spanish. Other language interpreters available.</p>
-			<p class="oddsAndEnds"><span class="Name" xml:lang="en-US">MediCal: </span>Many services are available for refugees or people under 21 or over 65, blind, disabled or pregnant. Call 863-9892.</p>
-			<p class="oddsAndEnds"><span class="Name" xml:lang="en-US">Needle Exchange. </span>Call Syringe Access Services, 241-5100, for times &amp; places. Needle exchange, condoms, abscess care, HIV/Hep C testing, Hep A &amp; B vaccinations, &amp; basic medical services. English &amp; Spanish. </p>
-			<p class="Normal-p-2"><span class="Name" xml:lang="en-US">Institute for Health &amp; Healing.</span><span class="address" xml:lang="en-US"> 2040 Webster St</span><span class="Name" xml:lang="en-US"> </span>(at Sacramento). 600-3681. Free. A free self-help medical research reading room. Call for an appointment TuTh 9:30am-5pm. <span class="ADA"></span></p>
-			<p class="oddsAndEnds"><span class="Name" xml:lang="en-US">San Francisco Rape Treatment Center. </span><span class="address" xml:lang="en-US">2727 Mariposa, Ste 100 </span>(bet. Florida &amp; Bryant). 437-3000. Free. Social workers M-F 8am-5pm (24 hr. crisis intervention, evidence collection &amp; medical care via SF General Hospital Emergency). This is for all 18+ victims including LGBTQQ. Medical &amp; psychological counseling. English, Portugese, &amp; Spanish; sometimes Arabic, Amharic, Tigrinya; other interpreters available<span class="char-style-override-5">.</span> <span class="ADA">6</span></p>
-			<p class="oddsAndEnds"><span class="ADA"></span></p>
+			<p class="Odds-and-Ends-heading">Odds </p>
+			<div class="frame-14">
+				<p class="caption">† Primary Care clinics provide full medical services including screening &amp; referral.Urgent Care clinics provide limited medical services including screening &amp; referral.</p>
+				<p class="caption">‡ Clinics that provide only mental health services, health education &amp; substance abuse programs are not included on this chart. </p>
+			</div>
+			<p class="Odds-and-Ends-heading">&amp; Ends</p>
+			<div class="frame-15">
+				<p class="oddsAndEnds"><span class="Name" xml:lang="en-US"> Acupuncture: </span>1. American College of Traditional Chinese Medicine. <br />555 <span class="address" xml:lang="en-US">DeHaro, Rm G</span>, 282-9603. Free <span class="drop-in">drop-in</span> ear clinic, MTu 1:30-4:15pm, WTh 9-11:45am. <span class="ADA">6</span><br />2. Haight Ashbury Free Clinics - Walden House. 1735 <span class="address" xml:lang="en-US">Mission St.</span> (at 13th Street). 746-1940. Call for an app.  M-F 9am-5pm. <span class="ADA">6</span><br />3. Glide Health Services. 330<span class="address" xml:lang="en-US"> Ellis St, 6th Floor </span>(bet. Taylor &amp; Jones). 674-6140. <span class="drop-in">Drop-in</span><span> Tu 1-4pm, Th 1-3pm.</span><span class="ADA"></span></p>
+				<p class="oddsAndEnds"><span class="Name" xml:lang="en-US">Surgery: Operation Access. </span><span class="address" xml:lang="en-US">115 Sansome, Suite 1205</span> (at Bush). 733-0052. Free. Call M-F 9am-5pm for information on how to get a referral for free outpatient surgery. English, Portuguese, &amp; Spanish. Other language interpreters available.</p>
+				<p class="oddsAndEnds"><span class="Name" xml:lang="en-US">MediCal: </span>Many services are available for refugees or people under 21 or over 65, blind, disabled or pregnant. Call 863-9892.</p>
+				<p class="oddsAndEnds"><span class="Name" xml:lang="en-US">Needle Exchange. </span>Call Syringe Access Services, 241-5100, for times &amp; places. Needle exchange, condoms, abscess care, HIV/Hep C testing, Hep A &amp; B vaccinations, &amp; basic medical services. English &amp; Spanish. </p>
+				<p class="Normal-p-2"><span class="Name" xml:lang="en-US">Institute for Health &amp; Healing.</span><span class="address" xml:lang="en-US"> 2040 Webster St</span><span class="Name" xml:lang="en-US"> </span>(at Sacramento). 600-3681. Free. A free self-help medical research reading room. Call for an appointment TuTh 9:30am-5pm. <span class="ADA"></span></p>
+				<p class="oddsAndEnds"><span class="Name" xml:lang="en-US">San Francisco Rape Treatment Center. </span><span class="address" xml:lang="en-US">2727 Mariposa, Ste 100 </span>(bet. Florida &amp; Bryant). 437-3000. Free. Social workers M-F 8am-5pm (24 hr. crisis intervention, evidence collection &amp; medical care via SF General Hospital Emergency). This is for all 18+ victims including LGBTQQ. Medical &amp; psychological counseling. English, Portugese, &amp; Spanish; sometimes Arabic, Amharic, Tigrinya; other interpreters available<span class="char-style-override-6">.</span> <span class="ADA">6</span></p>
+				<p class="oddsAndEnds"><span class="ADA"></span></p>
+			</div>
+			<p class="Odds-and-Ends-heading"></p>
 		</div>
 		<div>
 			<p class="Caption-with-line-above">We’d like your corrections, comments, or additions for our next update. Please call 648-3222. Up to the minute charts available at http://freeprintshop.org.</p>
-			<p class="para-style-override-3">This chart may be reproduced freely (but revised only with permission). ©2013 Free Print Shop, San Francisco.</p>
+			<p class="caption para-style-override-6">This chart may be reproduced freely (but revised only with permission). ©2013 Free Print Shop, San Francisco.</p>
 			<p class="Emergency">In case of emergency, call 911.</p>
 			<p class="Emergency"></p>
 		</div>

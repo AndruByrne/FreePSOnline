@@ -1,0 +1,14 @@
+body, div, img, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt,
+blockquote, fieldset, legend, label, input, textarea {
+    margin: 0; padding: 0; border: 0;
+}
+sh1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 1em 0;
+}
+h1{font-size: 200%;}
+h2{font-size: 170%;}
+h3{font-size: 160%;}
+h4{font-size: 140%;}
+h5{font-size: 120%;}
+
+html, body { height: 100%; }
