@@ -6,11 +6,11 @@ import android.net.*;
 import android.os.*;
 import android.support.v4.view.*;
 import android.util.*;
-import android.view.*;
 import android.webkit.*;
 import android.widget.*;
 import java.io.*;
 import java.lang.ref.*;
+import android.view.*;
 
 public class FreePrintShopOnline extends Activity {
 
@@ -43,6 +43,8 @@ public class FreePrintShopOnline extends Activity {
 		mAdapter = new MPagerAdapter();
 		mPager = (ViewPager) findViewById(R.id.my_pager);
 		mPager.setAdapter(mAdapter);
+		Toast toast = Toast.makeText(getContext(), R.string.swipeInstructions, Toast.LENGTH_SHORT);
+		toast.show();
 		}
 	
 	private class MPagerAdapter extends PagerAdapter
@@ -73,7 +75,7 @@ public class FreePrintShopOnline extends Activity {
 			View layout = null;
 			LayoutInflater inflater = (LayoutInflater) 
 					collection.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-			String targetDir = getContext().getFilesDir().toString();
+		//	String targetDir = getContext().getFilesDir().toString();
 			switch (position){
 			case 0:
 				layout = inflater.inflate(R.layout.webview_holder, null);
@@ -85,7 +87,7 @@ public class FreePrintShopOnline extends Activity {
 				WebSettings webSettings0 = mWebViewRef.get().getSettings();
 				
 				webSettings0.setJavaScriptEnabled(false);
-		        webSettings0.setBuiltInZoomControls(true);
+		        webSettings0.setBuiltInZoomControls(false);
 				mWebViewRef.get().requestFocusFromTouch();
 			    
 				mWebViewRef.get().setWebViewClient(new WebViewClient()
@@ -121,7 +123,7 @@ public class FreePrintShopOnline extends Activity {
 				WebSettings webSettings1 = mWebViewRef1.get().getSettings();
 		        
 				webSettings1.setJavaScriptEnabled(false);
-		        webSettings1.setBuiltInZoomControls(true);
+		        webSettings1.setBuiltInZoomControls(false);
 		        mWebViewRef1.get().requestFocusFromTouch();
 		        
 		        mWebViewRef1.get().setWebViewClient(new WebViewClient()
@@ -167,6 +169,7 @@ public class FreePrintShopOnline extends Activity {
 					} else {Log.e(TAG, "no html string");}
 					htmlPage2 = null;				
 				((ViewPager)collection).addView((View)layout, 0);
+					
 				break;
 				
 			case 3:
@@ -293,124 +296,124 @@ public class FreePrintShopOnline extends Activity {
 		//MenuItemCompat.setShowAsAction(menu.findItem(R.menu.options), 1);
 		return true;
 	}
-	private void CopyAssetsToInternal(String sourceDir) {
-		try{
-		    String[] pages = null;
-			File     targetDir = getContext().getFilesDir();
-		    try{
-			    pages     = getContext().getAssets().list("Internal"+sourceDir);
-			} catch(Exception e){
-				Log.e(TAG, e.getMessage() +" No Internal Directory");
-			}
-			if (sourceDir != "") { 
-				sourceDir += "/"; 
-				targetDir = new File(targetDir, sourceDir); 
-				targetDir.mkdir(); 
-				Log.d(TAG, "copying assets to subdiectory "+targetDir);
-			}
-			targetDir.setReadable(true, false);
-			if(sourceDir != null){
-				
-				Log.d(TAG, "sourcedir exists");
-				for(String filename : pages) { 
-				
-					Log.d(TAG, "pages exist");
-					System.out.println("File name => "+filename); 
-					if(filename.contains(".") == false){
-						CopyAssetsToInternal("/"+filename);
-					} else {
-
-						Log.d(TAG, "COPYING");
-						File outFile;
-						InputStream in = null; 
-						OutputStream out = null; 
-						if(sourceDir == ""){
-							in = getContext().getAssets().open("Internal/"+filename); 
-						}
-						else {
-							in = getContext().getAssets().open("Internal"+sourceDir+filename);
-						}
-
-						Log.d(TAG, "copying asset: "+filename +" to internal storage, this is removed on uninstall");
-						outFile = new File(targetDir, filename);
-						// if files reside inside the "Internal" directory itself 
-						out = new FileOutputStream(outFile, false);
-						//  out = sdTrial.toString();
-						copyFile(in, out); 
-						in.close(); 
-						in = null; 
-						out.flush(); 
-						out.close(); 
-						out = null;
-					}
-				} 
-			} else {Log.e(TAG, "no sauce");}
-		} catch (IOException e) { 
-			Log.e(TAG, e.getMessage()); 
-		} 
-	}
-	private void CopyAssetsToExternal(String sourceDir) {
-		try{
-		    String[] pages = null;
-			File     targetDir = null;
-		    try{
-			    pages     = getContext().getAssets().list("External"+sourceDir);
-				targetDir = new File(PATH, TAG);
-			//	targetDir.mkdir();
-			} catch(Exception e){
-				Log.e(TAG, e.getMessage() +" No External Directory");
-			}
-			if (sourceDir != "") { 
-				sourceDir += "/"; 
-				targetDir = new File(targetDir, sourceDir); 
-				targetDir.mkdir(); 
-				Log.d(TAG, "copying assets to subdiectory "+targetDir);
-			}
-			targetDir.setReadable(true, false);
-			if(sourceDir != null){
-				
-				Log.d(TAG, "sourcedir exists");
-				for(String filename : pages) { 
-
-					Log.d(TAG, "pages exist");
-					System.out.println("File name => "+filename); 
-					if(filename.contains(".") == false){
-						CopyAssetsToExternal("/"+filename);
-					} else {
-						
-						Log.d(TAG, "COPYING");
-						File outFile;
-						InputStream in = null; 
-						OutputStream out = null; 
-						
-						if(sourceDir == ""){
-							in = getContext().getAssets().open("External/"+filename); 
-						}
-						else {
-							in = getContext().getAssets().open("External"+sourceDir+filename);
-						}
-
-						Log.d(TAG, "copying asset: "+filename +" to external storage, this is removed on uninstall");
-						outFile = new File(targetDir, filename);
-						// if files resides inside the "Files" directory itself 
-				//		Toast mtoast = Toast.makeText(getContext(), outFile.toString(), Toast.LENGTH_LONG);
-				//		mtoast.show();
-						out = new FileOutputStream(outFile, false);
-				//		  out = sdTrial;
-						copyFile(in, out); 
-						in.close(); 
-						in = null; 
-						out.flush(); 
-						out.close(); 
-						out = null;
-						
-					}
-				} 
-			} else {Log.e(TAG, "no sauce");}
-		} catch (IOException e) { 
-			Log.e(TAG, e.getMessage()); 
-		} 
-	}	
+//	private void CopyAssetsToInternal(String sourceDir) {
+//		try{
+//		    String[] pages = null;
+//			File     targetDir = getContext().getFilesDir();
+//		    try{
+//			    pages     = getContext().getAssets().list("Internal"+sourceDir);
+//			} catch(Exception e){
+//				Log.e(TAG, e.getMessage() +" No Internal Directory");
+//			}
+//			if (sourceDir != "") { 
+//				sourceDir += "/"; 
+//				targetDir = new File(targetDir, sourceDir); 
+//				targetDir.mkdir(); 
+//				Log.d(TAG, "copying assets to subdiectory "+targetDir);
+//			}
+//			targetDir.setReadable(true, false);
+//			if(sourceDir != null){
+//				
+//				Log.d(TAG, "sourcedir exists");
+//				for(String filename : pages) { 
+//				
+//					Log.d(TAG, "pages exist");
+//					System.out.println("File name => "+filename); 
+//					if(filename.contains(".") == false){
+//						CopyAssetsToInternal("/"+filename);
+//					} else {
+//
+//						Log.d(TAG, "COPYING");
+//						File outFile;
+//						InputStream in = null; 
+//						OutputStream out = null; 
+//						if(sourceDir == ""){
+//							in = getContext().getAssets().open("Internal/"+filename); 
+//						}
+//						else {
+//							in = getContext().getAssets().open("Internal"+sourceDir+filename);
+//						}
+//
+//						Log.d(TAG, "copying asset: "+filename +" to internal storage, this is removed on uninstall");
+//						outFile = new File(targetDir, filename);
+//						// if files reside inside the "Internal" directory itself 
+//						out = new FileOutputStream(outFile, false);
+//						//  out = sdTrial.toString();
+//						copyFile(in, out); 
+//						in.close(); 
+//						in = null; 
+//						out.flush(); 
+//						out.close(); 
+//						out = null;
+//					}
+//				} 
+//			} else {Log.e(TAG, "no sauce");}
+//		} catch (IOException e) { 
+//			Log.e(TAG, e.getMessage()); 
+//		} 
+//	}
+//	private void CopyAssetsToExternal(String sourceDir) {
+//		try{
+//		    String[] pages = null;
+//			File     targetDir = null;
+//		    try{
+//			    pages     = getContext().getAssets().list("External"+sourceDir);
+//				targetDir = new File(PATH, TAG);
+//			//	targetDir.mkdir();
+//			} catch(Exception e){
+//				Log.e(TAG, e.getMessage() +" No External Directory");
+//			}
+//			if (sourceDir != "") { 
+//				sourceDir += "/"; 
+//				targetDir = new File(targetDir, sourceDir); 
+//				targetDir.mkdir(); 
+//				Log.d(TAG, "copying assets to subdiectory "+targetDir);
+//			}
+//			targetDir.setReadable(true, false);
+//			if(sourceDir != null){
+//				
+//				Log.d(TAG, "sourcedir exists");
+//				for(String filename : pages) { 
+//
+//					Log.d(TAG, "pages exist");
+//					System.out.println("File name => "+filename); 
+//					if(filename.contains(".") == false){
+//						CopyAssetsToExternal("/"+filename);
+//					} else {
+//						
+//						Log.d(TAG, "COPYING");
+//						File outFile;
+//						InputStream in = null; 
+//						OutputStream out = null; 
+//						
+//						if(sourceDir == ""){
+//							in = getContext().getAssets().open("External/"+filename); 
+//						}
+//						else {
+//							in = getContext().getAssets().open("External"+sourceDir+filename);
+//						}
+//
+//						Log.d(TAG, "copying asset: "+filename +" to external storage, this is removed on uninstall");
+//						outFile = new File(targetDir, filename);
+//						// if files resides inside the "Files" directory itself 
+//				//		Toast mtoast = Toast.makeText(getContext(), outFile.toString(), Toast.LENGTH_LONG);
+//				//		mtoast.show();
+//						out = new FileOutputStream(outFile, false);
+//				//		  out = sdTrial;
+//						copyFile(in, out); 
+//						in.close(); 
+//						in = null; 
+//						out.flush(); 
+//						out.close(); 
+//						out = null;
+//						
+//					}
+//				} 
+//			} else {Log.e(TAG, "no sauce");}
+//		} catch (IOException e) { 
+//			Log.e(TAG, e.getMessage()); 
+//		} 
+//	}	
 
 	private String getHtmlFromAsset(String htmlAsset) {
 	InputStream is;
@@ -433,15 +436,15 @@ public class FreePrintShopOnline extends Activity {
 	
 	
 	
-	private void copyFile(InputStream in, OutputStream out) 
-	throws IOException { 
-		byte[] buffer = new byte[1024]; 
-		int read; 
-		while((read = in.read(buffer)) != -1){ 
-			out.write(buffer, 0, read); 
-		} 
-	}
-
+//	private void copyFile(InputStream in, OutputStream out) 
+//	throws IOException { 
+//		byte[] buffer = new byte[1024]; 
+//		int read; 
+//		while((read = in.read(buffer)) != -1){ 
+//			out.write(buffer, 0, read); 
+//		} 
+//	}
+//
 	public static String getApplicationName(Context context) { 
 	    int stringId = context.getApplicationInfo().labelRes; 
 		return context.getString(stringId); 
@@ -451,5 +454,12 @@ public class FreePrintShopOnline extends Activity {
 	public Context getContext() {
 		return this;
 	}
-	
+//	public class mWebViewClient extends WebViewClient{
+//		public void onPageFinished(WebView view, String url){
+//			//	view.loadUrl("javascript:zoom();");
+//		//	view.loadUrl("javascript:zoomer();");
+//			Log.e(TAG, "url= " + url.toString());
+//		}
+//		
+//	}
 }

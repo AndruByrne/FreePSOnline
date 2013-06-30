@@ -11,6 +11,14 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockqu
 	padding:0;
 	border-width:0;
 }
+p.rotate {
+	-webkit-transform: translateY(25px) rotate(-90deg);
+	font-size:6px;
+	white-space:nowrap;
+}
+th {
+	max-width: 8px;
+}
 td, th {
 	border-style:solid;
 	border-width:1px;
